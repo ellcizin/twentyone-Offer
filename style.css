@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  text-rendering: optimizeLegibility;
+  font-family: sans-serif;
+}
+.margin-auto {
+  width: 85%;
+  margin: auto;
+}
+.main-area{
+  width: 100%;
+  height: 100vh;
+  background: url(./image/Untitled\ design\ \(4\).png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.main-position{
+  height: 310px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.margin-auto2{
+  width: 80%;
+  margin: auto;
+}
+.margin-auto2 b{
+  color: #ad0202;
+}
+.image-item img{
+  border-radius: 10px;
+}
+.image-item {
+  margin: 8px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px 4px #333;
+}
+
+.owl-mar{
+  width: 65%;
+  margin: auto;
+}
+.nav-area{
+
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-area2{
+  justify-content: center;
+  border-bottom: 10px solid #333;
+}
+.nav-area h1{
+  color: red;
+  width: 300px;
+  height: 58px;
+  margin: 0;
+  font-size: 50px;
+  font-style: italic;
+  text-shadow: 5px 5px 10px rgba(255, 0, 0,.8);
+  font-variant: small-caps;
+}
+.nav-area a{
+  padding:10px 40px;
+  color: white;
+  display: block;
+  text-decoration: none;
+  background-color: red;
+  height: 42px;
+  border-radius: 10px;
+  border: 2px solid red;
+  font-variant: small-caps;
+}
+.nav-area a:hover{
+  background-color: #000;
+
+}
+.text-area1{
+  margin-top: 100px;
+}
+.text-area1 h1{
+  margin-top: 100px;
+color: #4D5656;
+text-align: center;
+font-variant: small-caps;
+font-size: 45px;
+margin: 0;
+}
+.text-area2 p{
+color: #4D5656;
+text-align: center;
+font-variant: small-caps;
+font-size: 20px;
+}
+.owl-carousel:hover{
+  cursor: pointer;
+}
+/* .logo {
+  height: 110px;
+  background: #000;
+  text-align: center;
+  border-bottom: 10px solid #333;
+  border-radius: 0 0 20% 20%;
+  overflow: hidden;
+} */
+.a-link {
+  text-decoration: none;
+  display: block;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.flex-item {
+  width: 31%;
+  background: #000;
+  border-top: 10px solid #333;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.3);
+  margin: 15px 0;
+  padding: 20px;
+}
+.flex-item img {
+  width: 100%;
+  border: 5px solid #333;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+h2 {
+  margin-top: 0;
+  color: red;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+p {
+  color: #fff;
+
+}
+
+.butn {
+  background-color: #333;
+  color: red;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  font-variant: small-caps;
+}
+@media (max-width: 991px) {
+  .d-none {
+      display: block;
+  }
+  
+}
+
+@media (max-width: 900px) {
+  .margin-auto2{
+    width: 80%;
+
+  }
+  .owl-mar{
+    width: 80%;
+
+  }
+}
+@media (max-width: 800px) {
+  .text-area1 h1{
+  font-size: 35px;
+
+  }
+  .margin-auto2{
+    width: 85%;
+
+  }
+  .owl-mar{
+    width: 85%;
+
+  }
+  .main-area{
+    width: 100%;
+    height: 100vh;
+    background: url(./image/kiki.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
+
+
+@media (max-width: 620px) {
+  .text-area1 h1{
+  font-size: 30px;
+
+  }
+
+}
+@media (max-width: 600px) {
+  h2 {
+      font-size: 23px;
+  }
+  p {
+      font-size: 15px;
+  }
+  .logo img {
+      width: 100%;
+      display: block;
+  }
+}
+@media (max-width: 575px) {
+  .nav-area h1{
+    height: 53px;
+    font-size: 40px;
+ width: 230px;
+  }
+  .nav-area {
+    justify-content: center;
+  }
+  .nav-area a {
+    padding: 5px 40px;
+    height: auto;
+}
+}
+@media (max-width: 300px) {
+  .nav-area a {
+    height: 33px;
+  }
+}
+@media (min-width: 0px) {
+  .margin-auto {
+      width: 80%;
+  }
+  .flex-item {
+      width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .margin-auto {
+      width: 90%;
+  }
+  .flex-item {
+      width: 49%;
+  }
+}
+@media (min-width: 992px) {
+  .margin-auto {
+      width: 95%;
+  }
+  .flex-item {
+      width: 31%;
+  }
+  .d-none {
+      display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .margin-auto {
+      width: 85%;
+  }
+}
